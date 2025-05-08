@@ -111,7 +111,7 @@ export const Home = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const skills=['HTML','CSS','JavaScript','PHP','MySQL','RDBMS','React','Bootstrap','Git','GitHub','Responsive Design','APIs']
+  const skills=['HTML','CSS','JavaScript','PHP','MySQL','RDBMS','React','Bootstrap','Git','GitHub','Responsive Design','APIs','Angular','Go','MongoDB']
   return (
     <>
     <nav>
@@ -231,7 +231,7 @@ export const Home = () => {
                 <p>Web Applications that leads to the success of the overall product</p>
             </div>
         </div>
-        <div className="copyright">© Copyright 2024 . Made by <Link to={"/"}>Umapathi</Link></div>
+        <div className="copyright">© Copyright 2025 . Made by <Link to={"/"}>Umapathi</Link></div>
     </footer>
     </>
   )
